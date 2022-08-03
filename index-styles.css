@@ -1,0 +1,29 @@
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 0 auto;
+    width: 750px;
+    text-align: center;
+    background-image:linear-gradient(rgba(17, 172, 250, 0.844) 0% ,rgba(17, 172, 250, 0.6) 80%, white 95%); /*linear-gradient(180deg,rgba(17, 172, 250, 0.74),rgba(17, 172, 250, 0.74));*/
+    height: 800px;
+    color: aliceblue;
+    
+}
+
+h1{ 
+    font-size: 50px;
+    text-shadow: 4px 1px rgba(127, 126, 126, 0.719);
+    margin: 0;
+}
+
+#description {
+    font-size: 20px;
+}
+
+article {
+    width: 100%;
+}
+
+#id {
+    float: right;
+text-align: right;
+}
