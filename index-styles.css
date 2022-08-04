@@ -1,29 +1,47 @@
 body {
     font-family: Tahoma, sans-serif;
     margin: 0 auto;
-    width: 750px;
     text-align: center;
-    background-image:linear-gradient(rgba(17, 172, 250, 0.844) 0% ,rgba(17, 172, 250, 0.6) 80%, white 95%); /*linear-gradient(180deg,rgba(17, 172, 250, 0.74),rgba(17, 172, 250, 0.74));*/
-    height: 800px;
-    color: aliceblue;
+    background-color:rgb(24, 24, 24);
+    width: 100vw;
+    color: white;
     
 }
 
 h1{ 
     font-size: 50px;
-    text-shadow: 4px 1px rgba(127, 126, 126, 0.719);
-    margin: 0;
+    text-shadow: 4px 1px rgba(0, 0, 0, 0.719);
+    margin: 0 auto;
 }
 
 #description {
     font-size: 20px;
+    padding-bottom: 20px;
+    width: 25%;
+    min-width: 300px;
+    margin: 0 auto;
+    color: rgba(226, 69, 213, 0.9);;
 }
 
 article {
-    width: 100%;
+    
 }
 
-#id {
-    float: right;
-text-align: right;
+#bio{
+    margin: 0 auto;
+    background-color: rgb(255, 129, 244);
+    width: 1000px;
+    min-width: 500px;
+    padding: 10px ;
+    border-radius: 40px 10px;
+    display: inline-block;
+
+}
+
+#bio-text {
+    margin: 10px auto;
+    width: 50%;
+    color: black;
+    text-align: left
+    ;
 }
