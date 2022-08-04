@@ -30,18 +30,18 @@ article {
 #bio{
     margin: 0 auto;
     background-color: rgb(255, 129, 244);
-    width: 1000px;
-    min-width: 500px;
+    width: 50%;
+    min-width: 700px;
     padding: 10px ;
-    border-radius: 40px 10px;
+    border-radius: 35px 2px;
     display: inline-block;
 
 }
 
 #bio-text {
-    margin: 10px auto;
-    width: 50%;
-    color: black;
-    text-align: left
-    ;
+    margin: 10px 12px 10px auto;
+    width: 80%;
+    color: rgb(24, 24, 24);
+    text-align: left;
+    font-size: medium;
 }
