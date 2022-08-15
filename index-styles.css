@@ -1,49 +1,63 @@
 body {
-    font-family: Tahoma, sans-serif;
+    font-family:  sans-serif;
     margin: 0 auto;
     text-align: center;
     background-color:rgb(24, 24, 24);
     width: 100vw;
     color: white;
-    
 }
 
 h1{ 
     font-size: 50px;
     text-shadow: 4px 1px rgba(0, 0, 0, 0.719);
-    margin: 0 auto;
+    margin: 20px auto;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: sans-serif;
 }
 
 #description {
     font-size: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
     width: 25%;
     min-width: 300px;
     margin: 0 auto;
-    color: rgba(226, 69, 213, 0.9);;
+    color: rgba(253, 149, 245, 0.9);
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
-article {
-    
-}
-
-#bio{
-    margin: 0 auto;
+.bio{
+    margin: 10px auto;
     background-color: rgb(255, 129, 244);
     width: 50%;
     min-width: 700px;
     padding: 10px ;
     border-radius: 35px 2px;
     display: inline-block;
-
 }
 
-#bio-text {
+.pink-block {
     margin: 10px 12px 10px auto;
     width: 80%;
-    color: rgb(24, 24, 24);
+    color: rgb(48, 48, 48);
     text-align: left;
     font-size: medium;
+    font-family: Tahoma;
+    vertical-align: auto;
+    line-height: 25px;
+    word-spacing: 3px;
+}
+
+.pink-block img {
+    height: 100px;float: right;
+}
+
+.pink-block p {
+    width: 75%; 
+    font-weight: bold;
 }
 
 table td {
