@@ -29,14 +29,23 @@ p {
     border-radius: 5px;
 }
 
-.bio{
+.container{
     margin: 10px auto;
-    background-color: rgb(255, 129, 244);
+    background-color: rgb(249, 109, 237);
     width: 50%;
     min-width: 700px;
     padding: 10px ;
     border-radius: 35px 2px;
     display: inline-block;
+}
+
+.container h2 {
+    float: left; margin-top: 10px; margin-left: 20px;
+    font-size: large;
+}
+
+#movie-block {
+    background-color: rgba(143, 230, 97, 0.732);
 }
 
 .pink-block {
@@ -66,4 +75,17 @@ table td {
 
 #note {
    background-color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: wheat;
 }
