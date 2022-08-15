@@ -3,7 +3,7 @@ th{ font-size: large;}
 table, th, tr, td{
     border-spacing: 0;
     border: 1px solid rgba(175, 150, 182, 0.758);
-    padding: 4px;
+    
     
 }
 
@@ -11,7 +11,7 @@ th{
     background-color: black;
 }
 
-table{
+table {
     width: 100%;
     
 }
@@ -30,12 +30,12 @@ th {
 
 body{
     font-family: Tahoma, sans-serif;
-    margin: 0 auto;
+    margin:  auto;
     text-align: center;
     background-color:rgba(0, 0, 0, 0.872);
-    width: 100vw;
+    width: 95%;
     color: white;
-    padding-left: 30px;
+  
 }
 
 h1{ 
@@ -55,8 +55,10 @@ h2 {
 
 }
 
-.x169{
-    background-color: gold;
+#centered{
+   margin: auto;
+   width: 80%;
+
 }
 
 #note {
