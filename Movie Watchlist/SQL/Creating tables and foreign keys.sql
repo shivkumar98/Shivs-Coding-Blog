@@ -1,8 +1,8 @@
 use moviedb;
-
+DROP TABLE movies;
 CREATE TABLE movies (
 	movie_id int NOT NULL AUTO_INCREMENT,
-    director_id int NOT NULL,
+    director_id int NULL,
     movie_title char(50) NOT NULL,
     movie_watched boolean NOT NULL,
 	review_id int NULL,
